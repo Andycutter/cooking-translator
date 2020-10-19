@@ -19,14 +19,9 @@ const poundToGram = 453.59237;
 function translateRecipe() {
     document.getElementById('output-text').innerHTML = '';
     let input = document.getElementById('input-text').value;
-    debugger;
-    console.log(input);
     input = cleanUp(input);
-    console.log(input);
-    debugger;
     let output = convertUnits(input);
     output = output.join(' ');
-    console.log(output);
     let outputElement = document.getElementById('output-text');
     outputElement.innerHTML += '<p>' + output + '</p>';
 
@@ -36,7 +31,6 @@ function convertUnits(recipe) {
     let i = -1;
     units.forEach(function(unit) {
         while ((i = recipe.indexOf(unit, i+1)) != -1) {
-            debugger;
             switch(unit.toLocaleLowerCase()) {
                 case 'cup':
                 case 'cups':
