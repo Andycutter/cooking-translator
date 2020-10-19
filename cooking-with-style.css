@@ -1,0 +1,29 @@
+#input-text, #output-text {
+    width: 40%;
+    height: 400px;
+    margin: 5px;
+}
+
+#output-text {
+    float: right;
+}
+
+#input-text {
+    float: left;
+}
+
+#title {
+    text-align: center;
+}
+
+#translate-label {
+    display: block;
+    text-align: center;
+}
+
+#translate {
+    margin: 0 auto;
+    display: block;
+}
+
+
