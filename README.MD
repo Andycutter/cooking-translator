@@ -4,3 +4,4 @@ A silly attempt to convert cooking recipies written with stupid freedom units to
 
 Changelog 
 1. iteration october 19 2020
+    - should be able to handle simple recipes where the author has not added complicated text structure.
