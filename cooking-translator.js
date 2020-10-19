@@ -15,7 +15,6 @@ const usLiquidQuartToLiter = 0.9463530;
 const gallonToLiter = 3.78541178;
 const poundToGram = 453.59237;
 
-
 function translateRecipe() {
     document.getElementById('output-text').innerHTML = '';
     let input = document.getElementById('input-text').value;
@@ -24,7 +23,6 @@ function translateRecipe() {
     output = output.join(' ');
     let outputElement = document.getElementById('output-text');
     outputElement.innerHTML += '<p>' + output + '</p>';
-
 }
 
 function convertUnits(recipe) {
