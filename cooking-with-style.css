@@ -26,4 +26,17 @@
     display: block;
 }
 
+#rockBottom{
+    position: fixed;
+    bottom: 0px;
+}
 
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+}
