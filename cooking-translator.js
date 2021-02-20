@@ -83,7 +83,6 @@ function cleanUp(array) {
     array = array.replace(/\n/g, " ");
     array = array.replaceAll('1 1/4', '1.25').replaceAll('1 1/2', '1.5').replaceAll('1 3/4', '1.75')
                     .replaceAll('2 1/4', '2.25').replaceAll('2 1/2', '2.5').replaceAll('2 3/4', '2.75');
-    debugger;
     array = array.toLocaleLowerCase();
     array = array.split(' ');
     let i = 0;
